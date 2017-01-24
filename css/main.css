@@ -1,0 +1,273 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#E9EBEE;
+}
+a{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+.topbar{
+	background-color:#3B5998;
+	height:3em;
+	text-align:center;
+	padding-top:0.5em; 
+}
+.nav-list{
+	padding-left:1em;
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+}
+.nav-list a{
+	color:white;	
+}
+.nav-list li{
+	list-style:none;
+	float:left;
+	line-height:2em;
+	padding:0 0.5em;
+}
+.nav-left a{
+	color:black;	
+	font-size:13px;
+    padding: 5px 10px;
+}
+.nav-left span{
+	color:#4B4F56;	
+	font-size:13px;
+	font-weight:bold;
+    padding: 5px 10px;	
+    line-height:2.5em;
+}
+.comment{
+	padding-left:1em;
+}
+.right-main{
+	background-color:white;
+}
+.right-main ul li{
+	margin:0em;
+	padding:0em;
+}
+.right-main ul li a{
+	padding:1em 1em;
+}
+
+
+/*welcome*/
+.welcome{
+	background-color:white;
+	margin-top:0.7em;
+}
+.welcome>ul:nth-child(1){
+	padding:1.5em 1em 0em 1em;
+	height:4em;
+	background:url('../tq.png')  no-repeat; 
+	background-position:right 2em ;
+}
+.welcome>ul>li{
+	float:left;
+	margin-right:1em;
+	line-height: 2em; 
+}
+
+.comment-list{
+	background-color:white;
+	margin-top:0.7em;	
+	margin-bottom:1em;	
+	_height:12em; 
+	min-height:12em; 
+}
+.comment-list a:hover{
+	text-decoration:underline;
+}
+.comment-list>ul:nth-child(1){
+	padding:1em 1em 0em 1em;
+	max-height:80em;
+	height:auto;	
+}
+.comment-list>ul>li{
+	float:left;
+	margin-right:1em;
+	line-height: 2em; 
+}
+.comment-content img{
+	max-width: 100%;
+	height: auto;
+}
+
+.comment-tool{
+	margin-top:-1em;
+}
+.comment-tool span{
+	padding:0 1em 0 0em;
+	color:#AFB4BD; 
+}
+.comment-tool span a{
+	color:#7F7F7F;
+	font-weight:bold;
+	font-size:13px;
+}
+
+.comment-list-content{
+	background-color:#F6F7F9;
+	border-top:1px solid #E1E2E3;
+	border-bottom:1px solid #E1E2E3;
+	margin-top:-1em; 
+	margin-bottom:1em; 
+}
+.comment-list-content>ul{
+	padding:0.5em 1em 0em 1em;
+}
+
+.comment-list-contents{
+	 font-size:12px;
+	 margin-top:1em;
+}
+.comment-list-contents>div>a{
+	padding:0 0.2em;
+}
+.comment-list-contents>div>p{
+	padding-left:1em;
+}
+
+
+/*home*/
+.banner{
+	background:url('../bj.jpg')  no-repeat;
+	background-size:cover;
+	height:20em;
+}
+.banner-menu-list{
+	background-color:white;
+	height:3em;
+	border:1px solid #D3D6DB;
+}
+.banner-menu-list>ul{
+	/*float:right;*/
+}
+.banner-menu-list>ul>li{
+	float:left;
+	padding:0 1em;
+	border-left:1px solid #E9EAED;
+	line-height:3em;
+}
+
+.home-intro>ul{
+	padding:1em 1em;
+}
+.home-intro>ul>li{
+	padding:0.2em 0;
+}
+.home-intro>ul>li>i{
+	margin-right:1em;
+}
+
+
+.home-phone{
+	max-height:80em;
+	height:auto;	
+	min-height:10em;
+	background-color:white;	
+}
+.home-phone>ul{
+	padding:1em 1em;	
+}
+.home-phone>ul>li{
+	padding:0.2em 0;
+}
+.home-phone>ul>li>i{
+	margin-right:1em;
+}
+.home-phone>ul>ul>li{
+	float:left;
+	padding-right:0.5em;
+	padding-top:0.5em;	
+}
+
+.home-friend{
+	max-height:80em;
+	height:auto;	
+	min-height:10em;	
+	background-color:white;
+	margin-top:0.8em;
+}
+.home-friend>ul{
+	padding:1em 1em;	
+}
+.home-friend>ul>li{
+	padding:0.2em 0;
+}
+.home-friend>ul>li>i{
+	margin-right:1em;
+}
+.home-friend>ul>li>span{
+	font-size:13px;
+	color: #A5A9B3; 
+}
+.home-friend>ul>ul>li{
+	float:left;
+	padding-right:0.2em;
+	padding-top:0.5em;	
+}
+
+
+/*search*/
+.search-list{
+	padding-left:0.7em;	
+}
+.search-list>div{
+	background-color:white;	
+	padding:1em 1em;
+	border:1px solid #DFE0E4;
+	/*height: 20em;	*/
+}
+.search-list>div>ul>li{
+	border-bottom:1px solid #DFE0E4; 
+	padding:0.5em 0em;
+	width: 100%;
+}
+.search-list>div>ul>li:last-child{
+	/*border-bottom:none;*/
+}
+.search-list>div>ul>li>div{
+	margin-left:1em;
+}
+.search-list>div>ul>li a:hover{
+	text-decoration:underline;
+}
+
+.search-menu{
+	position:fixed;top:3em;
+	background-color:white;
+	text-align:center;
+}
+.search-menu>ul{
+	text-align:center;;
+}
+.search-menu>ul>li{
+	padding-top:1em;
+	margin-right:1em;
+}
+.search-menu>ul>li>a{
+	padding:0.5em 1em;
+	color:black;
+}
+.search-menu>ul>li>a:hover{
+	border-bottom:2px solid #4267B2; 
+}
+.search-menu>ul>li>.active{
+	font-weight:bold;
+	border-bottom:2px solid #4267B2;
+}
