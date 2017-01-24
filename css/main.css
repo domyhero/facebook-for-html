@@ -271,3 +271,26 @@ ul,li{
 	font-weight:bold;
 	border-bottom:2px solid #4267B2;
 }
+
+
+/*message*/
+/*search*/
+.message-list{
+	padding-left:0.7em;	
+}
+.message-list>div{
+	background-color:white;	
+	padding:0em 1em;
+	border:1px solid #DFE0E4;
+}
+.message-list>div>ul>li{
+	border-bottom:1px solid #DFE0E4; 
+	padding:0.5em 0em;
+	width: 100%;
+}
+.message-list>div>ul>li>div{
+	margin-left:1em;
+}
+.message-list>div>ul>li a:hover{
+	text-decoration:underline;
+}
